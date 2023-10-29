@@ -38,7 +38,7 @@ body{
     font-family: 'Jeju Gothic';
     font-size: 24px;
     font-weight: bold;
-    color:#1db954;
+    color:#4fa6ae;
     
     }
 
@@ -192,7 +192,7 @@ i#search_clear.form-icon {
     }
 
 .dccon.tooltip:after {
-    background: #1ed760;
+    background: #4fa6ae;
     border-radius: 50px;
     color: #282828;
     font-family: 'Jeju Gothic';
@@ -260,5 +260,5 @@ div.card {
     }
 .credit .text a:hover {
     text-decoration: none;
-    color: #1DB954;
+    color: #4fa6ae;
     }
