@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/earlyaccess/jejugothic.css");
 
 body{
-    background: #181818;
+    background: #252446;
     left: 0; right: 0;
     margin: 0;
     width: 100%;
@@ -187,7 +187,7 @@ i#search_clear.form-icon {
 
 .tooltip {
     min-width: 100px;max-width: 100px;
-    margin: 10px;
+    margin: 4px;
     padding: 0px;
     }
 
@@ -230,16 +230,16 @@ div.card {
     transition: all 0.3s ease-in-out;
     }
 
-.card-image:hover img{
-    filter: blur(2px);
-    transform: scale(1.2);
-    transition: all 0.3s ease-in-out;
+div.card:hover img{
+    border: 1px solid #f4fff7;
+	box-shadow: 0px 0px 25px 1px #f4fff7, inset 0px 0px 25px 1px #f4fff7;
+    transition: all 0.3s ease-out;
     }
 
 .img-background {
     /*opacity: 0;*/
     border-radius: 0;
-    background: #404040;
+    background: #00000000;
     max-width: 100%;
     }
 
