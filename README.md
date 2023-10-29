@@ -6,7 +6,9 @@
 
 ## License
 **jsassist-open-dccon** made by [rishubil](https://github.com/rishubil/jsassist-open-dccon), 
+
 **open-dccon-custom-list** made by [bouroton2685](https://github.com/boutoron2685/open-dccon-custom-list),
+
 **BridgeBBCC** made by [krynen](https://github.com/krynen/BridgeBBCC)
 
 Copyright 2018 The MIT License (MIT).
