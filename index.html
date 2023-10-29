@@ -92,7 +92,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.5/jquery.lazy.plugins.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
   <script src="https://cdn.rawgit.com/teampopong/hangul-jamo-js/eaca39e7/hangul-jamo.js"></script>
+  <script src="lib/dccon_list.js"></script>
   <script type="text/javascript">
+    console.log(dcConsSelector);
     var dcconList = [];
 
     function getUrlParameter(sParam) {
@@ -111,6 +113,8 @@
     };
 
     function init() {
+	var dcconList = dcConsSelector;
+	console.log(dcconList);
       var seletedTags = [];
       var currentSearchText = "";
       var dcconSearchMap = {}; // keyword로 dccon을 찾을 수 있도록 하는 맵
@@ -161,6 +165,9 @@
           );
         }
       }
+	  
+	  console.log(dcconList);
+	console.log(dccon);
 
       var lazyDccon = $(".dccon > .card > .card-image > img.lazy").Lazy({
         chainable: false,
@@ -310,7 +317,7 @@
       });
       updateList();
     }
-	<!--
+
     $(document).ready(function() {
       var dcconListUrl = getUrlParameter('dccon_list');
       if (dcconListUrl == undefined) {
@@ -326,11 +333,9 @@
           init();
         });
     });
-	--!>
 	
-	$(document).ready(function)() {
-		const dcconUrl = 
-	});
+	
+
   </script>
 </body>
 
