@@ -313,7 +313,7 @@
     $(document).ready(function() {
       var dcconListUrl = getUrlParameter('dccon_list');
       if (dcconListUrl == undefined) {
-        dcconListUrl = 'https://raw.githubusercontent.com/boutoron2685/open-dccon-custom-list/master/js/dccon_list.json';
+        dcconListUrl = 'https://raw.githubusercontent.com/citric-sulfur/js/master/js/dccon_list.json';
       }
       $.getJSON(dcconListUrl).done(function(data) {
           dcconList = data.dccons;
