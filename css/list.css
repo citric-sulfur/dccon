@@ -187,7 +187,7 @@ i#search_clear.form-icon {
 
 .tooltip {
     min-width: 100px;max-width: 100px;
-    margin: 4px;
+    margin: 2px;
     padding: 0px;
     }
 
@@ -230,7 +230,7 @@ div.card {
     transition: all 0.3s ease-in-out;
     }
 
-div.card:hover img{
+.card-image:hover img{
     border: 1px solid #f4fff7;
 	box-shadow: 0px 0px 25px 1px #f4fff7, inset 0px 0px 25px 1px #f4fff7;
     transition: all 0.3s ease-out;
